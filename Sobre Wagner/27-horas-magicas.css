@@ -1,0 +1,106 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.header-27-horas-magicas{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #ae00ff;
+    padding: 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto auto;
+}
+
+.header-27-horas-magicas a{
+    color: rgb(255, 255, 255);
+    font-family: "Helvetica";
+    font-size: 32px;
+    letter-spacing: 2PX;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 900;
+    background-color: black;
+    padding: 0px 30px;
+    border-radius: 50px;
+    transition: 0.25s all;
+}
+
+.header-27-horas-magicas a:hover{
+    color: #ae00ff;
+    padding: 5px 40px;
+    border-radius: 50px;
+    letter-spacing: 4px;
+}
+
+.article-h-27-horas-magicas{
+    background-color: #ae00ff;
+}
+
+.conteúdo-27-horas-magicas{
+    max-width: 1200px;
+    margin: auto auto;
+    margin-top: 50px;
+
+}
+
+.conteúdo-27-horas-magicas h1{
+    font-family: "helvetica medium";
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+.conteúdo-27-horas-magicas h2{
+    font-family: "helvetica";
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color:rgb(73, 73, 73);
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.conteúdo-27-horas-magicas h3{
+    font-family: "helvetica medium";
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 4px;
+    color: #80006f;
+    margin-left: 20px;
+    margin-top: 5px
+}
+
+.conteúdo-27-horas-magicas h4{
+    font-family: "helvetica medium";
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 20px
+}
+
+.linha-de-quebra{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

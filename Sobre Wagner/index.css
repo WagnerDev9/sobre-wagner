@@ -1,0 +1,97 @@
+@import url(30anos.css);
+@import url(comedoria.css);
+@import url(lembrando.css);
+@import url(quem-melhor-conhece-o-wagner.css);
+@import url(27-horas-magicas.css);
+@import url(play-em-tudo.css);
+@import url(free-memes.css);
+@import url(retrospectiva-19-anos-de-wagner.css);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.header-index{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto auto;
+}
+
+.header-index a{
+    color: white;
+    font-family: "Helvetica";
+    font-size: 32px;
+    letter-spacing: 2PX;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 900;
+    transition: 1s all;
+}
+
+.header-index a:hover{
+    color: white;
+    font-family: "Helvetica";
+    font-size: 32px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 900;
+    transition: 0.5s all;
+}
+
+.article-h-index{
+    background-color: black;
+}
+
+.mosaico-index{
+    max-width: 90%;
+    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mosaico-index ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.mosaico-index ul{
+    margin: auto auto;
+}
+
+
+.img-index{
+    text-decoration: none;
+}
+
+.linha-de-quebra{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
